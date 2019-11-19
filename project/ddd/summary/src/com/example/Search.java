@@ -20,7 +20,7 @@ public class Search extends HttpServlet {
 			response.sendRedirect("pages/full-width.html");
 			System.out.println(search);
 		}else if(search.equals("두릅")){
-			response.sendRedirect("pages/Aralia elata.html");
+			response.sendRedirect("pages/Araliaelata.html");
 			System.out.println(search);
 		}else if(search.equals("아스파라거스")){
 			response.sendRedirect("pages/Asparagus.html");
@@ -41,7 +41,7 @@ public class Search extends HttpServlet {
 			response.sendRedirect("pages/Fig.html");
 			System.out.println(search);
 		}else if(search.equals("파")){
-			response.sendRedirect("pages/Green onion.html");
+			response.sendRedirect("pages/Greenonion.html");
 			System.out.println(search);
 		}else if(search.equals("상추")){
 			response.sendRedirect("pages/Lettuce.html");
